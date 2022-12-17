@@ -1,1 +1,12 @@
 <h1> {{ siteName }} </h1>
+
+Technology used: <input type="text" [formControl]="technologyUsed">
+<br>
+<br>
+<input type="button" value="Set Default" (click)="setDefaultValue()" >
+
+<br>
+<br>
+<input type="button" value="Get Value" (click)="getInputValue()" >
+
+<p> {{ _displayTechUsed  }}</p>

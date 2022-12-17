@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular Tutorial';
+  siteName = 'Angular 10 Forms - Techie Ocean';
 }

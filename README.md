@@ -6,3 +6,16 @@
 # Branches
 > 1. ANGULAR 13 :TYPES OF FORMS (0:42) - Reactive Forms
 > 2. ANGULAR 13 :TYPES OF FORMS (6:28) - Template-Driver Forms
+
+# Screen Shots
+
+1.  ANGULAR 13 :TYPES OF FORMS                 
+    <img
+    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/2_TYPES_OF_FORMS.jpg"
+    alt="2_TYPES_OF_FORMS"
+    style="width:450px;height:400px;"> 
+2. ANGULAR 13 :TYPES OF FORMS              
+   <img
+   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/2_TYPES_OF_FORMS.jpg"
+   alt="2_TYPES_OF_FORMS"
+   style="width:450px;height:400px;"> 

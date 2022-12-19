@@ -1,7 +1,7 @@
 <h1> {{ siteName }} </h1>
 
 <form [formGroup]="userProfileForm" (ngSubmit)="onSubmit()">
-
+      <h1>Personal Information</h1>
       <label>
           First Name:
           <input type="text" formControlName="firstName" >
@@ -22,7 +22,30 @@
           <input type="text" formControlName="email" >
       </label>
           <br><br>
-      <button type="submit">Submit</button>
+      <div formGroupName="address">
+        <h1>Address</h1>
+        <label>
+          Address 1:
+          <input type="text" formControlName="address1" >
+        </label>
+        <br><br>
+        <label>
+          Address 2:
+          <input type="text" formControlName="address2" >
+        </label>
+        <br><br>
+        <label>
+          State:
+          <input type="text" formControlName="state" >
+        </label>
+        <br><br>
+        <label>
+          Zip:
+          <input type="text" formControlName="zip" >
+        </label>
+      </div>
+      <br><br>
+      <button type="submit" [disabled]="!userProfileForm.valid">Submit</button>
 </form>
 
 <p>

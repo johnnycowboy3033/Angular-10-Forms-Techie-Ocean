@@ -33,7 +33,8 @@ export class AppComponent {
   onSubmit(){
       console.log(this.userProfileForm.value);
       //Converts Object to a string
-      this.displayFormGroup = '' + JSON.stringify(this.userProfileForm.value );
+      // @ts-ignore
+    this.displayFormGroup = '' + JSON.stringify(this.userProfileForm.get(["firstName"]).value );
 
   }
 

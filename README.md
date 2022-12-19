@@ -22,6 +22,6 @@
    style="width:450px;height:400px;"> 
 3. USING FORM GROUP AND FORM CONTROL                                   
    <img
-   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/3_USING_FORM_GROUP_AND_FORM_CONTROL..jpg"
+   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/3_USING_FORM_GROUP_AND_FORM_CONTROL.jpg"
    alt="3_USING_FORM_GROUP_AND_FORM_CONTROL"
    style="width:450px;height:400px;"> 

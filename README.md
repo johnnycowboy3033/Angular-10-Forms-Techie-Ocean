@@ -4,10 +4,10 @@
 * [ANGULAR 10 FORMS - Techie Ocean](https://www.youtube.com/playlist?list=PL9Osfv2HEXE2IDfYv6ORboNc4I-5Vp7cw)
 
 # Branches
-> 1. ANGULAR 13 :TYPES OF FORMS (0:42) - Reactive Forms
-> 2. ANGULAR 13 :TYPES OF FORMS (6:28) - Template-Driver Forms
-> 3. ANGULAR 13 REACTIVE FORM : (0:00) USING FORM GROUP AND FORM CONTROL - Form Control
-> 4. ANGULAR 13 REACTIVE FORM : (3:18) USING FORM GROUP AND FORM CONTROL - Form Group - [Converting an object to a string](https://stackoverflow.com/questions/5612787/converting-an-object-to-a-string)
+> 1. ANGULAR 13 :TYPES OF FORMS  - 1_TYPES_OF_FORMS - (0:42) Reactive Forms
+> 2. ANGULAR 13 :TYPES OF FORMS  - 2_TYPES_OF_FORMS - (6:28) Template-Driver Forms
+> 3. ANGULAR 13 : USING FORM GROUP AND FORM CONTROL - 3_USING_FORM_GROUP_AND_FORM_CONTROL - (0:00)  Form Control
+> 4. ANGULAR 13 REACTIVE FORM : USING FORM GROUP AND FORM CONTROL - 4_USING_FORM_GROUP_AND_FORM_CONTROL - (3:18)  Form Group - [Converting an object to a string](https://stackoverflow.com/questions/5612787/converting-an-object-to-a-string)
 
 # Screen Shots 
 

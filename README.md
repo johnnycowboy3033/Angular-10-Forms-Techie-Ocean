@@ -11,11 +11,23 @@
 
 # Screen Shots 
 
-1.  ANGULAR 13 :TYPES OF FORMS
-2. ANGULAR 13 :TYPES OF FORMS
-3. ANGULAR 13 REACTIVE FORM 
-4. ANGULAR 13 REACTIVE FORM : USING FORM GROUP AND FORM CONTROL         
-<img
-src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/4_USING_FORM_GROUP_AND_FORM_CONTROL.jpg"
-alt="4_USING_FORM_GROUP_AND_FORM_CONTROL"
-style="width:450px;height:400px;">
+1.  ANGULAR 13 :TYPES OF FORMS                 
+    <img
+    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/2_TYPES_OF_FORMS.jpg"
+    alt="2_TYPES_OF_FORMS"
+    style="width:450px;height:400px;">
+2. ANGULAR 13 :TYPES OF FORMS              
+   <img
+   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/2_TYPES_OF_FORMS.jpg"
+   alt="2_TYPES_OF_FORMS"
+   style="width:450px;height:400px;">
+3. USING FORM GROUP AND FORM CONTROL                                   
+   <img
+   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/3_USING_FORM_GROUP_AND_FORM_CONTROL.jpg"
+   alt="3_USING_FORM_GROUP_AND_FORM_CONTROL"
+   style="width:450px;height:400px;">
+4. ANGULAR 13 REACTIVE FORM : USING FORM GROUP AND FORM CONTROL                     
+   <img
+   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/4_USING_FORM_GROUP_AND_FORM_CONTROL.jpg"
+   alt="4_USING_FORM_GROUP_AND_FORM_CONTROL"
+   style="width:450px;height:400px;">

@@ -9,7 +9,7 @@
 > 3. ANGULAR 13 : USING FORM GROUP AND FORM CONTROL - 3_USING_FORM_GROUP_AND_FORM_CONTROL - (0:00)  Form Control
 > 4. ANGULAR 13 REACTIVE FORM : USING FORM GROUP AND FORM CONTROL - 4_USING_FORM_GROUP_AND_FORM_CONTROL - (3:18)  Form Group - [Converting an object to a string](https://stackoverflow.com/questions/5612787/converting-an-object-to-a-string)
 > 5. ANGULAR 13 REACTIVE : NESTED FORM GROUP - 5_NESTED_FORM_GROUP - (0:00) - Enable Submit Button when First Name has a value.
-> 6. ANGULAR 13 REACTIVE : NESTED FORM GROUP - 6_NESTED_FORM_GROUP - (5:17) - 
+> 6. ANGULAR 13 REACTIVE : NESTED FORM GROUP - 6_NESTED_FORM_GROUP - (5:17) - Two ways to access the nested form group
 
 # Screen Shots 
 
@@ -41,5 +41,5 @@
 6. ANGULAR 13 REACTIVE : NESTED FORM GROUP
    <img
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/6_NESTED_FORM_GROUP.jpg"
-   alt="5_NESTED_FORM_GROUP"
+   alt="6_NESTED_FORM_GROUP"
    style="width:450px;height:400px;">

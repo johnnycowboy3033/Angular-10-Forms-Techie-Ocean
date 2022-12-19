@@ -10,10 +10,16 @@ export class AppComponent {
   title = 'Angular Tutorial';
   siteName = 'Angular 10 Forms - Techie Ocean';
 
+  email = new FormControl('');
+
   ngOnInit(): void {
   }
 
   constructor() {
+  }
+
+  updateEmail(){
+    this.email.setValue('test@testdomain.com')
   }
 
 }

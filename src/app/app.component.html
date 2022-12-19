@@ -1,2 +1,15 @@
 <h1> {{ siteName }} </h1>
 
+<label>
+  Enter Email:
+    <input  type="text" [formControl]="email">
+</label>
+
+<p>
+  Display Value {{ email.value}}
+</p>
+
+<p>
+  <button (click)="updateEmail()">Click to update Email</button>
+</p>
+

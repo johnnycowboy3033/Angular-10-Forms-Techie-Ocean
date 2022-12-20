@@ -32,9 +32,9 @@
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/4_USING_FORM_GROUP_AND_FORM_CONTROL.jpg"
    alt="4_USING_FORM_GROUP_AND_FORM_CONTROL"
    style="width:450px;height:400px;">
-5. ANGULAR 13 REACTIVE : NESTED FORM GROUP 
+5. ANGULAR 13 REACTIVE : NESTED FORM GROUP                 
    <img
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/5_NESTED_FORM_GROUP.jpg"
    alt="5_NESTED_FORM_GROUP"
-   style="width:450px;height:400px;">
+   style="width:400px;height:400px;">
 

@@ -9,9 +9,6 @@ import {FormGroup, FormControl, Validators} from "@angular/forms";
 export class AppComponent {
   title = 'Angular Tutorial';
   siteName = 'Angular 10 Forms - Techie Ocean';
-  displayFirstName = '';
-  display1Address1 = '';
-  display2Address1 = '';
 
   userProfileForm = new FormGroup({
       firstName: new FormControl('', Validators.required),
@@ -35,12 +32,16 @@ export class AppComponent {
   onSubmit(){
       console.log(this.userProfileForm.value);
 
-      // @ts-ignore
-      this.displayFirstName = '' + JSON.stringify(this.userProfileForm.get(["firstName"]).value );
-      // @ts-ignore
-      this.display1Address1 = '' + JSON.stringify(this.userProfileForm.get(["address","address1"]).value );
-    // @ts-ignore
-    this.display2Address1 = '' + JSON.stringify(this.userProfileForm.get(["address"]).get(["address1"]).value );
+  }
+
+  updateModelPartially(){
+
+    this.userProfileForm.patchValue({
+      firstName: 'Jimmy',
+      address: {
+        address1: 'ABC Apartment'
+      }
+    })
   }
 
 

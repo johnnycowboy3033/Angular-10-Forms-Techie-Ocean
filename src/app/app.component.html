@@ -1,56 +1,78 @@
 <h1> {{ siteName }} </h1>
 
-<form [formGroup]="userProfileForm" (ngSubmit)="onSubmit()">
-      <h1>Personal Information</h1>
-      <label>
-          First Name:
-          <input type="text" formControlName="firstName" >
-      </label>
-         <br><br>
-      <label>
-          Last Name:
-          <input type="text" formControlName="lastName" >
-      </label>
-          <br><br>
-      <label>
-          Age:
-          <input type="text" formControlName="age" >
-      </label>
-          <br><br>
-      <label>
-          Email:
-          <input type="text" formControlName="email" >
-      </label>
-          <br><br>
-      <div formGroupName="address">
-        <h1>Address</h1>
-        <label>
-          Address 1:
-          <input type="text" formControlName="address1" >
-        </label>
-        <br><br>
-        <label>
-          Address 2:
-          <input type="text" formControlName="address2" >
-        </label>
-        <br><br>
-        <label>
-          State:
-          <input type="text" formControlName="state" >
-        </label>
-        <br><br>
-        <label>
-          Zip:
-          <input type="text" formControlName="zip" >
-        </label>
-      </div>
-      <br><br>
-      <button type="submit" [disabled]="!userProfileForm.valid">Submit</button>
-      <br><br>
-      <button (click)="updateModelPartially()">Update Partially</button>
+<form [formGroup]="userProfileForm"  (ngSubmit)="onSubmit()" >
+  <h1>Personal Information</h1>
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName" >
+  </label>
+  <br><br>
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName" >
+  </label>
+  <br><br>
+  <label>
+    Age:
+    <input type="text" formControlName="age" >
+  </label>
+  <br><br>
+  <label>
+    Email:
+    <input type="text" formControlName="email" >
+  </label>
+  <br><br>
+  <div formGroupName="address">
+    <h1>Address</h1>
+    <label>
+      Address 1:
+      <input type="text" formControlName="address1" >
+    </label>
+    <br><br>
+    <label>
+      Address 2:
+      <input type="text" formControlName="address2" >
+    </label>
+    <br><br>
+    <label>
+      State:
+      <input type="text" formControlName="state" >
+    </label>
+    <br><br>
+    <label>
+      Zip:
+      <input type="text" formControlName="zip" >
+    </label>
+  </div>
+  <br><br>
+  <button type="submit" [disabled]="!userProfileForm.valid">Submit</button>
 </form>
 
+<p>
+
+  Display Form :  {{ displayForm }}
+
+</p>
+
+<p>
+
+  First Name :  {{ firstName }}
+
+</p>
+
+<p>
+
+  Last Name :  {{ lastName }}
+
+</p>
 
 
+<p>
 
+  Address 1 :  {{ address1 }}
 
+</p>
+
+<p>
+   Address 2 :  {{ address2 }}
+</p>

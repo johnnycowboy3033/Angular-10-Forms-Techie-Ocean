@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import {FormGroup, FormControl, Validators} from "@angular/forms";
+import { FormBuilder} from "@angular/forms";
+import { Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-root',
@@ -9,42 +10,49 @@ import {FormGroup, FormControl, Validators} from "@angular/forms";
 export class AppComponent {
   title = 'Angular Tutorial';
   siteName = 'Angular 10 Forms - Techie Ocean';
+  displayForm = '';
+  firstName = '' ;
+  lastName = '';
+  address1 = '';
+  address2 = '';
 
-  userProfileForm = new FormGroup({
-      firstName: new FormControl('', Validators.required),
-      lastName: new FormControl(''),
-      age: new FormControl(''),
-      email: new FormControl(''),
-      address : new FormGroup({
-        address1: new FormControl(''),
-        address2: new FormControl(''),
-        state: new FormControl(''),
-        zip: new FormControl(''),
-      })
-  });
+
 
   ngOnInit(): void {
   }
 
-  constructor() {
+  constructor( private fb:FormBuilder) {
   }
+
+  userProfileForm = this.fb.group({
+    firstName: ['', Validators.required ],
+    lastName:  [''],
+    age:  [''],
+    email:  [''],
+    address : this.fb.group({
+      address1: [''],
+      address2: [''],
+      state: [''],
+      zip: [''],
+    })
+  });
+
 
   onSubmit(){
-      console.log(this.userProfileForm.value);
+    // @ts-ignore
+    this.displayForm = '' + JSON.stringify(this.userProfileForm.value);
 
+    this.firstName = '' + this.userProfileForm.controls['firstName'].value;
+
+    // @ts-ignore
+    this.lastName = '' + this.userProfileForm.get('lastName').value;
+
+    // @ts-ignore
+    this.address1 = '' + this.userProfileForm.get(['address','address1']).value;
+
+    // @ts-ignore
+    this.address2 = '' + this.userProfileForm.get(['address']).get(['address2']).value;
   }
-
-  updateModelPartially(){
-
-    this.userProfileForm.patchValue({
-      firstName: 'Jimmy',
-      address: {
-        address1: 'ABC Apartment'
-      }
-    })
-  }
-
-
 
 }
 

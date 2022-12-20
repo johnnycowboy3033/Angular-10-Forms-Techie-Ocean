@@ -11,6 +11,7 @@
 > 5. ANGULAR 13 REACTIVE : NESTED FORM GROUP - 5_NESTED_FORM_GROUP - (0:00) - Enable Submit Button when First Name has a value.
 > 6. ANGULAR 13 REACTIVE : NESTED FORM GROUP - 6_NESTED_FORM_GROUP - (5:17) - Two ways to access the nested form group
 > 7. ANGULAR 13 : HOW TO PARTIALLY UPDATE FORM - 7_HOW_TO_PARTIALLY_UPDATE_FORM - (0:00) - Initialize values
+> 8. ANGULAR 13 REACTIVE FORM : USING FORMBUILDER - 8_USING_FORMBUILDER - (0:00) 
 
 # Screen Shots 
 
@@ -47,5 +48,14 @@
 7. ANGULAR 13 : HOW TO PARTIALLY UPDATE FORM                     
    <img
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/7_HOW_TO_PARTIALLY_UPDATE_FORM.jpg"
-   alt="6_NESTED_FORM_GROUP"
+   alt="7_HOW_TO_PARTIALLY_UPDATE_FORM"
    style="width:250px;height:300px;">
+8. ANGULAR 13 REACTIVE FORM                     
+   <img
+   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/8_USING_FORMBUILDER.jpg"
+   alt="8_USING_FORMBUILDER"
+   style="width:250px;height:300px;">
+
+
+
+

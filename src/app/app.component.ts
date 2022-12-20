@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder} from "@angular/forms";
-import { Validators} from "@angular/forms";
+import {FormArray, FormBuilder, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-root',
@@ -11,12 +10,8 @@ export class AppComponent {
   title = 'Angular Tutorial';
   siteName = 'Angular 10 Forms - Techie Ocean';
   displayForm = '';
-  firstName = '' ;
-  lastName = '';
-  address1 = '';
-  address2 = '';
-
-
+  mobile1 = '';
+  counter = 0;
 
   ngOnInit(): void {
   }
@@ -25,33 +20,38 @@ export class AppComponent {
   }
 
   userProfileForm = this.fb.group({
-    firstName: ['', Validators.required ],
-    lastName:  [''],
-    age:  [''],
-    email:  [''],
-    address : this.fb.group({
-      address1: [''],
-      address2: [''],
-      state: [''],
-      zip: [''],
-    })
+    mobiles: this.fb.array([
+        this.fb.control('')
+    ])
   });
+
+  get mobiles(){
+    return this.userProfileForm.get('mobiles') as FormArray;
+  }
+
+
+  addNewMobile(){
+    this.mobiles.push(this.fb.control(''));
+  }
 
 
   onSubmit(){
     // @ts-ignore
     this.displayForm = '' + JSON.stringify(this.userProfileForm.value);
 
-    this.firstName = '' + this.userProfileForm.controls['firstName'].value;
-
     // @ts-ignore
-    this.lastName = '' + this.userProfileForm.get('lastName').value;
+    this.mobile1 = ' ' + this.userProfileForm.get(['mobiles','0']).value;
 
-    // @ts-ignore
-    this.address1 = '' + this.userProfileForm.get(['address','address1']).value;
 
-    // @ts-ignore
-    this.address2 = '' + this.userProfileForm.get(['address']).get(['address2']).value;
+
+  }
+
+  logMobiles(){
+    for(let mob of this.mobiles.controls){
+      // @ts-ignore
+      console.log("Mobile " + this.counter + " : " + this.userProfileForm.get(['mobiles',this.counter]).value);
+      this.counter = this.counter + 1;
+    }
   }
 
 }

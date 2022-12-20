@@ -56,6 +56,13 @@
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/8_USING_FORMBUILDER.jpg"
    alt="8_USING_FORMBUILDER"
    style="width:450px;height:500px;">
+9. ANGULAR 13 : CREATE DYNAMIC CONTROLS IN REACTIVE FORMS                                            
+   <img
+   src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/9_CREATE_DYNAMIC_CONTROLS_IN_REACTIVE_FORMS.jpg"
+   alt="9_CREATE_DYNAMIC_CONTROLS_IN_REACTIVE_FORMS"
+   style="width:450px;height:500px;">
+
+
 
 
 

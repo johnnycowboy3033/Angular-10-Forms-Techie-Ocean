@@ -47,5 +47,5 @@
 7. ANGULAR 13 : HOW TO PARTIALLY UPDATE FORM                     
    <img
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/7_HOW_TO_PARTIALLY_UPDATE_FORM.jpg"
-   alt="6_NESTED_FORM_GROUP"
+   alt="7_HOW_TO_PARTIALLY_UPDATE_FORM"
    style="width:250px;height:300px;">

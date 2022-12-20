@@ -50,7 +50,7 @@
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/7_HOW_TO_PARTIALLY_UPDATE_FORM.jpg"
    alt="7_HOW_TO_PARTIALLY_UPDATE_FORM"
    style="width:250px;height:300px;">
-8. ANGULAR 13 REACTIVE FORM                     
+8. ANGULAR 13 REACTIVE FORM                               
    <img
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/8_USING_FORMBUILDER.jpg"
    alt="8_USING_FORMBUILDER"

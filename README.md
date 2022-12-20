@@ -54,7 +54,7 @@
    <img
    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/8_USING_FORMBUILDER.jpg"
    alt="8_USING_FORMBUILDER"
-   style="width:250px;height:300px;">
+   style="width:450px;height:500px;">
 
 
 

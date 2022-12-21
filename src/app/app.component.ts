@@ -17,11 +17,18 @@ export class AppComponent {
 
   model = new SuperHero( 1, 'Iron Man', this.weapons[0], this.specialities[0], 'Tony Stark' );
 
+  submitted = false;
 
   ngOnInit(): void {
   }
 
   constructor() {
+  }
+
+
+  onSubmit(){
+
+    this.submitted =true;
   }
 
 

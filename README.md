@@ -65,7 +65,10 @@
    alt="9_CREATE_DYNAMIC_CONTROLS_IN_REACTIVE_FORMS"
    style="width:650px;height:500px;">
 10. ANGULAR 13: TEMPLATE DRIVEN FORMS WITH VALIDATION               
-
+    <img
+    src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/10_TEMPLATE_DRIVEN_FORMS_WITH_VALIDATION.jpg"
+    alt="10_TEMPLATE_DRIVEN_FORMS_WITH_VALIDATION"
+    style="width:500px;height:500px;">
 
 
 

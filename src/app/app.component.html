@@ -9,8 +9,19 @@
 
       <div class="form-group">
         <label  for="name">Super Hero Name</label>
-        <input type="text" class="form-control" id="name">
+        <input type="text" id="name" name="name" class="form-control"
+        required [(ngModel)]="model.name" #name="ngModel"
+        >
+
+        <div *ngIf="name.errors?.['required']">
+          Super Hero Name is required
+        </div>
+
+        <div> <b> Invalid : </b>  {{ name.invalid }}  <b> Dirty : </b> {{ name.dirty }}   <b> Touched : </b> {{ name.touched }}</div>
+
       </div>
+
+
 
       <div class="form-group">
         <label  for="weapon">Hero Weapon</label>

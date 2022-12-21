@@ -3,7 +3,8 @@
 # References
 * [ANGULAR 10 FORMS - Techie Ocean](https://www.youtube.com/playlist?list=PL9Osfv2HEXE2IDfYv6ORboNc4I-5Vp7cw)
 * [What is the question mark for in a Typescript parameter name](https://stackoverflow.com/questions/37632760/what-is-the-question-mark-for-in-a-typescript-parameter-name)
-
+* [Validating form input - Angular](https://angular.io/guide/form-validation)
+* 
 # Branches
 > 1. ANGULAR 13 :TYPES OF FORMS  - 1_TYPES_OF_FORMS - (0:42) Reactive Forms
 > 2. ANGULAR 13 :TYPES OF FORMS  - 2_TYPES_OF_FORMS - (6:28) Template-Driver Forms

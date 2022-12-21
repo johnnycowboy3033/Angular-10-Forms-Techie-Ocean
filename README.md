@@ -68,7 +68,7 @@
     <img
     src="https://github.com/johnnycowboy3033/github-resources/blob/main/Angular-10-Forms-Techie-Ocean/10_TEMPLATE_DRIVEN_FORMS_WITH_VALIDATION.jpg"
     alt="10_TEMPLATE_DRIVEN_FORMS_WITH_VALIDATION"
-    style="width:500px;height:500px;">
+    style="width:700px;height:500px;">
 
 
 
